@@ -13,3 +13,9 @@ How I went about this:
 Created index, portfolio, and contact files.
 Created a styles.css folder.
 Filed in each html using bootstrap code.
+
+
+Links!
+
+https://github.com/sethklusmire/Week2Homework
+https://sethklusmire.github.io/Week2Homework/index.html
