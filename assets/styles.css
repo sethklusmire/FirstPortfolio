@@ -1,0 +1,26 @@
+/* Nothing fancy in here. Just making certain things certain colors! I think I could've made it prettier but didn't want to go wild. Columns and rows are still a touch confusing. */
+
+h1 {
+    color: rebeccapurple;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient( rgba(255,255,255,0.00) 80%,rgb(142, 99, 185) 100%);
+    background-repeat: no-repeat;
+}
+footer {
+    padding: 10px;
+    color: white;
+    background-color: rebeccapurple;
+
+}
+
+.content {
+    padding-bottom: 150px;
+}
+
+.seth-brand{
+    background-color: rebeccapurple;
+    color: white;
+}

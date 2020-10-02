@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link both the CSS and bootstrap here -->
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"
+    />
+  </head>
+  <title>Contact</title>
+  <body>
+      <!-- navbar below. Had to tinker a little bit because only needed 3 properties. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Wanted to add color to my name in the Nav Bar. -->
+      <a class="navbar-brand" href="navbar"><span class="seth-brand">Seth Klusmire</span></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- I added flex-row ml-md-auto d-none d-md-flex, which i found usinf ChromeDevTools on Bootstraps website's header. I wanted to put Contact,Portfolio and About to the right.-->
+        <div class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <!-- On every page I added the links below -->
+          <a class="nav-item nav-link active" href="/contact.html"
+            >Contact <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="/index.html">About</a>
+        </div>
+      </div>
+    </nav>
+    <!--Only needed 2 columns so I cut the page in half with a md-6  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <h1>Contact</h1>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+              />
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="message"
+                />
+            </div>    
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="fixed-bottom">Copyright: Seth Klusmire</footer>
+<!-- gotta have your script tags down here -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
